@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>
+        /Users/thomaspovinelli/NetBeansProjects/DiceRoller/out/artifacts/DiceRoller_jar/DiceRoller.jar
+    </jar>
+    <outfile>
+        /Users/thomaspovinelli/NetBeansProjects/DiceRoller/dist/DiceRoller.exe
+    </outfile>
+    <errTitle></errTitle>
+    <cmdLine></cmdLine>
+    <chdir>.</chdir>
+    <priority>normal</priority>
+    <downloadUrl>http://java.com/download</downloadUrl>
+    <supportUrl></supportUrl>
+    <stayAlive>false</stayAlive>
+    <restartOnCrash>false</restartOnCrash>
+    <manifest></manifest>
+    <icon>
+        /Users/thomaspovinelli/Downloads/3270_6af8f82c-97b5-42de-b57e-2da1b617dd75.png.ico
+    </icon>
+    <jre>
+        <path></path>
+        <bundledJre64Bit>false</bundledJre64Bit>
+        <bundledJreAsFallback>false</bundledJreAsFallback>
+        <minVersion>1.7.0_45</minVersion>
+        <maxVersion></maxVersion>
+        <jdkPreference>preferJre</jdkPreference>
+        <runtimeBits>64/32</runtimeBits>
+    </jre>
+</launch4jConfig>

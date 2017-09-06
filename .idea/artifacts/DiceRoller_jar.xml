@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DiceRoller:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DiceRoller_jar</output-path>
+    <root id="archive" name="DiceRoller.jar">
+      <element id="module-output" name="DiceRoller" />
+    </root>
+  </artifact>
+</component>

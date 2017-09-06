@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DownloadrForTumblr" default="default" basedir=".">
+
+    <taskdef name="bundleapp"
+             classname="com.oracle.appbundler.AppBundlerTask"
+             classpath="lib/appbundler-1.0.jar"/>
+
+    <target name="bundle-DiceRoller">
+        <bundleapp outputdirectory="dist"
+                   name="DiceRoller"
+                   icon="resources/default.icns"
+                   displayname="DiceRoller"
+                   identifier="to.DiceRoller"
+                   mainclassname="Application">
+            <classpath file="out/artifacts/DiceRoller_jar/DiceRoller.jar"/>
+        </bundleapp>
+    </target>
+
+</project>
